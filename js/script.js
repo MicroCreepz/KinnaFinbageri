@@ -17,7 +17,6 @@ document.querySelector('#close-form').onclick = () =>{
 }
 
 var swiper = new Swiper(".home-slider", {
-    grabCursor:true,
     loop:true,
     cnteredSlides:true,
     navigation: {

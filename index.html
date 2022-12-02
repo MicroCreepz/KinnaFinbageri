@@ -24,10 +24,9 @@
 
         <nav class="navbar">
             <a href="#home">hem</a>
-            <a href="#about">Om oss</a>
             <a href="products.html">produkter</a>
+            <a href="#about">Om oss</a>
             <a href="#gallery">gallery</a>
-            <a href="#team">Anställda</a>
             <a href="#review">recension</a>
             <a href="#order">Beställ</a>
         </nav>
@@ -53,7 +52,7 @@
             <img src="images/item.png" alt="">
             <div class="content">
                 <h3>bakery item 1</h3>
-                <div class="price">$45.99/-</div>
+                <div class="price">240kr</div>
             </div>
         </div>
 
@@ -62,7 +61,7 @@
             <img src="images/item.png" alt="">
             <div class="content">
                 <h3>bakery item 2</h3>
-                <div class="price">$15.99/-</div>
+                <div class="price">240kr</div>
             </div>
         </div>
 
@@ -71,11 +70,11 @@
             <img src="images/item.png" alt="">
             <div class="content">
                 <h3>bakery item 3</h3>
-                <div class="price">$29.99/-</div>
+                <div class="price">240kr</div>
             </div>
         </div>
 
-        <a href="#" class="btn"> checkout </a>
+        <a href="checkout.html" class="btn"> checkout </a>
 
     </div>
 
@@ -99,7 +98,7 @@
 
                 <div class="swiper-slide slide" style="background: url(images/slider2.jpg) no-repeat;">
                     <div class="content">
-                        <img src="images/logo.png" alt="">
+                        <h3>Vi bakar fram vad du vill ha</h3>
                         <a href="#about" class="btn"> börja </a>
                     </div>
                 </div>
@@ -224,68 +223,6 @@
 
     </section>
 
-    <!-- weekly promotions ends -->
-
-    <!-- team -->
-
-    <section class="team" id="team">
-
-        <h1 class="heading">våra  <span>Anställda</span></h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/profile.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>Jack</h3>
-                    <p>CEO</p>
-                    <div class="share">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/profile.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>alex</h3>
-                    <p>manager</p>
-                    <div class="share">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/profile.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>sasy</h3>
-                    <p>manager</p>
-                    <div class="share">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- team -->
-
-    <!-- parallax -->
 
     <section class="parallax">
 
@@ -353,8 +290,9 @@
 
     <section class="review" id="review">
 
-        <h1 class="heading"> kunders <span>recension</span> </h1>
-
+        <h1 class="heading"> kunders <span>recensioner</span> </h1>
+        <a href="read_more.html" class="btn">vad tycker du?</a>
+        <a href="Recension.html" style="position: relative;" class="btn">Alla Recensioner</a>
         <div class="box-container">
 
             <div class="box">
@@ -408,24 +346,24 @@
                 <img src="images/order.gif" alt="">
             </div>
 
-            <form action="">
-
+            <form action="https://formsubmit.co/liam.ryden@elev.ga.lbs.se" method="POST">
+                <input type="hidden" name="_subject" value="Ny beställning">
                 <div class="inputBox">
-                    <input type="text" placeholder="Första namn">
-                    <input type="text" placeholder="Efternamn">
+                    <input type="text" placeholder="Första namn" required>
+                    <input type="text" placeholder="Efternamn" required>
                 </div>
 
                 <div class="inputBox">
-                    <input type="email" placeholder="email adress">
-                    <input type="number" placeholder="telefonnummer">
+                    <input type="email" placeholder="email adress" required>
+                    <input type="number" placeholder="telefonnummer" required>
                 </div>
 
                 <div class="inputBox">
-                    <input type="text" placeholder="Produktens namn">
-                    <input type="number" placeholder="hur många">
+                    <input type="text" placeholder="Produktens namn" required>
+                    <input type="number" placeholder="hur många" required>
                 </div>
 
-                <textarea placeholder="Extra saker" name="" id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="Extra saker" name="" id="" cols="30" rows="10" required></textarea>
                 <input type="submit" value="Beställ nu" class="btn">
             </form>
 
@@ -465,35 +403,14 @@
                 <h3> öppettider </h3>
                 <p>Måndag - Fredag: 7:30 - 18:00 <br> Lördag: 9:00 - 13:00  <br> söndag: stängt</p>
             </div>
-
         </div>
 
-        <div class="credit">gjord av <span>Netbase</span> kolla in våran hemsida <a href="">Netbase.se</a> </div>
+        <div class="credit">gjord av <span><a href="">Netbase.se</a></span></a> </div>
 
     </section>
 
 
-
-
-
-
-
     <!-- footer ends -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

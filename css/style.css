@@ -466,6 +466,8 @@ section{
 .promotion .box-container .box{
   flex: 1 1 55rem;
   padding: 2rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
