@@ -7,7 +7,6 @@
     <title>Kinna finbageri</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
@@ -16,7 +15,6 @@
 </head>
 <body>
     
-    <!-- header -->
 
     <header class="header">
 
@@ -38,9 +36,6 @@
 
     </header>
 
-    <!-- header end -->
-
-    <!-- shopping cart -->
 
     <div class="cart-items-container">
 
@@ -84,9 +79,6 @@
 
     </div>
 
-    <!-- shopping cart end-->
-
-    <!-- home -->
 
     <section class="home" id="home">
 
@@ -118,18 +110,13 @@
 
     </section>
 
-    <!-- home section ends -->
 
-    <!-- banner -->
 
     <section class="banner">
         <img src="images/banner.png" alt="">
     </section>
 
 
-    <!-- banner end-->
-
-    <!-- about us -->
 
     <section class="about" id="about">
 
@@ -152,10 +139,6 @@
 
     </section>
 
-
-    <!-- about us end-->
-
-    <!-- gallery -->
 
     <section class="gallery" id="gallery">
 
@@ -196,10 +179,6 @@
         </div>
 
     </section>
-
-    <!-- gallery end -->
-
-    <!-- weekly promotions -->
 
     <section class="promotion">
 
@@ -290,10 +269,6 @@
 
     </section>
 
-    <!-- parallax -->
-
-    <!-- review -->
-
     <section class="review" id="review">
 
         <h1 class="heading"> kunders <span>recensioner</span> </h1>
@@ -337,11 +312,6 @@
         </div>
 
     </section>
-
-    <!-- review -->
-
-    <!-- order -->
-
     <section class="order" id="order">
 
         <h1 class="heading"><span>Beställ</span> nu </h1>
@@ -352,35 +322,30 @@
                 <img src="images/order.gif" alt="">
             </div>
 
-            <form action="https://formsubmit.co/liam.ryden@elev.ga.lbs.se" method="POST">
+            <form method="post">
                 <input type="hidden" name="_subject" value="Ny beställning">
                 <div class="inputBox">
-                    <input type="text" placeholder="Första namn" required>
-                    <input type="text" placeholder="Efternamn" required>
+                    <input type="text" placeholder="Första namn" id="name" required>
+                    <input type="text" placeholder="Efternamn" id="lastname" required>
                 </div>
 
                 <div class="inputBox">
-                    <input type="email" placeholder="email adress" required>
-                    <input type="number" placeholder="telefonnummer" required>
+                    <input type="email" placeholder="email adress" id="email" required>
+                    <input type="tel" placeholder="telefonnummer" id="phone" required>
                 </div>
 
                 <div class="inputBox">
-                    <input type="text" placeholder="Produktens namn" required>
-                    <input type="number" placeholder="hur många" required>
+                    <input type="text" placeholder="Produktens namn" id="product" required>
+                    <input type="number" placeholder="hur många" id="number" required>
                 </div>
 
-                <textarea placeholder="Extra saker" name="" id="" cols="30" rows="10" required></textarea>
-                <input type="submit" value="Beställ nu" class="btn">
+                <textarea placeholder="Extra saker" name="" id="" cols="30" rows="10" id="message"></textarea>
+                <input type="submit" value="Beställ nu" class="btn" id="btn">
             </form>
 
         </div>
 
     </section>
-
-    <!-- order end -->
-
-    <!-- footer -->
-
     <section class="footer">
 
         <div class="box-container">
@@ -415,20 +380,18 @@
 
     </section>
 
-
-    <!-- footer ends -->
-
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
-
-    <script src="js/script.js"></script>
-
-    <script>
-        lightGallery(document.querySelector('.gallery .gallery-container'));
-    </script>
-
-
 </body>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<script src="js/script.js"></script>
+
+<script>
+    lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+
+
 </html>
