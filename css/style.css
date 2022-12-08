@@ -202,6 +202,19 @@ section{
   text-align: left;
 }
 
+.cartfoot{
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  display: flex;
+  border-top: var(--black);
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+#cartItem{
+  font-size: 2.9rem;
+}
+
 /* end */
 
 /* home */
