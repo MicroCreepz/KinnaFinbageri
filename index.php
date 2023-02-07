@@ -14,19 +14,16 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-
     <header class="header">
 
         <a href="#" class="logo"> <i class="fas fa-bread-slice"></i> bakery </a>
 
         <nav class="navbar">
             <a href="#home">hem</a>
-            <a href="products.html">produkter</a>
+            <a href="products.php">produkter</a>
             <a href="#about">Om oss</a>
-            <a href="#gallery">gallery</a>
-            <a href="#review">recension</a>
-            <a href="#order">Beställ</a>
+            <a href="#gallery">galleri</a>
+            <a href="#order">Kontakta oss</a>
         </nav>
 
         <div class="icons">
@@ -40,43 +37,16 @@
     <div class="cart-items-container">
 
         <div id="close-form" class="fas fa-times"></div>
-        <h3 class="title">Min kundvagn</h3>
-        <div id="cartItem">Your cart is empty</div>
+        <h3 class="title">beställning</h3>
 
-        <div class="cart-item">
-            <span class="fas fa-times"></span>
-            <img src="images/item.png" alt="">
-            <div class="content">
-                <h3>bakery item 1</h3>
-                <div class="price">240kr</div>
-            </div>
-        </div>
-
-        <div class="cart-item">
-            <span class="fas fa-times"></span>
-            <img src="images/item.png" alt="">
-            <div class="content">
-                <h3>bakery item 2</h3>
-                <div class="price">240kr</div>
-            </div>
-        </div>
-
-        <div class="cart-item">
-            <span class="fas fa-times"></span>
-            <img src="images/item.png" alt="">
-            <div class="content">
-                <h3>bakery item 3</h3>
-                <div class="price">240kr</div>
-            </div>
+        <div class="cart-items">
         </div>
 
         <div class="cartfoot">
             <h3>Totala</h3>
-            <h3 id="total">0.00kr</h3>
+            <h3 class="total">0kr</h3>
         </div>
-
-        <a href="checkout.html" class="btn"> checkout </a>
-
+        <a href="#" class="btn"> Beställ </a>
     </div>
 
 
@@ -90,14 +60,14 @@
                     <div class="content">
                         <img src="images/logo.png" alt="">
                         <h3>Vi bakar fram vad du vill ha</h3>
-                        <a href="#about" class="btn"> börja </a>
+                        <a href="products.html" class="btn"> börja handla </a>
                     </div>
                 </div>
 
                 <div class="swiper-slide slide" style="background: url(images/slider2.jpg) no-repeat;">
                     <div class="content">
                         <h3>Vi bakar fram vad du vill ha</h3>
-                        <a href="#about" class="btn"> börja </a>
+                        <a href="products.html" class="btn"> börja handla </a>
                     </div>
                 </div>
 
@@ -110,14 +80,6 @@
 
     </section>
 
-
-
-    <section class="banner">
-        <img src="images/banner.png" alt="">
-    </section>
-
-
-
     <section class="about" id="about">
 
         <h1 class="heading"> <span>om</span> oss </h1>
@@ -127,14 +89,12 @@
             <div class="image">
                 <img src="images/about.png" alt="">
             </div>
-
             <div class="content">
-                <h3>någonting ska stå <span>här </span>snälla tack</h3>
+                <h3>Info om huset <span>här </span>ska det stå</h3>
                 <p>adgadhgadh adhadhad hadhadhadh adhadhad hadhadha adhaahdahad had had h</p>
                 <p>adgadhgadh adhadhad hadhadhadh adhadhad hadhadha adhaahdahad had had h</p>
-                <a href="read_more.html" class="btn">Läs mer</a>
             </div>
-
+            <a href="read_more.html" class="btn">läs mer</a>
         </div>
 
     </section>
@@ -175,34 +135,6 @@
                 <img src="images/gallery6.jpg" alt="">
                 <div class="icons"><i class="fas fa-plus"></i></div>
             </a>
-
-        </div>
-
-    </section>
-
-    <section class="promotion">
-
-        <h1 class="heading">veckans <span>bästa</span></h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <div class="content">
-                    <h3>choklad tårta</h3>
-                    <p>gadgad gadh adhad h afh sf h sdfh d fh sfh sf hf</p>
-                </div>
-
-                <img src="images/promotion1.png" alt="">
-            </div>
-
-            <div class="box">
-                <img src="images/promotion2.png" alt="">
-                <div class="content">
-                    <h3>nöt tårta</h3>
-                    <p>gadgad gadh adhad h afh sf h sdfh d fh sfh sf hf</p>
-                </div>
-                
-            </div>
 
         </div>
 
@@ -268,11 +200,11 @@
         </div>
 
     </section>
-
+    <!--
     <section class="review" id="review">
 
         <h1 class="heading"> kunders <span>recensioner</span> </h1>
-        <a href="read_more.html" class="btn">vad tycker du?</a>
+        <a href="recension.html" class="btn">vad tycker du?</a>
         <a href="Recension.html" style="position: relative;" class="btn">Alla Recensioner</a>
         <div class="box-container">
 
@@ -312,6 +244,7 @@
         </div>
 
     </section>
+-->
     <section class="order" id="order">
 
         <h1 class="heading"><span>Beställ</span> nu </h1>
@@ -322,24 +255,19 @@
                 <img src="images/order.gif" alt="">
             </div>
 
-            <form method="post">
+            <form onsubmit="SendEmail(); reset(); return false;">
                 <input type="hidden" name="_subject" value="Ny beställning">
                 <div class="inputBox">
-                    <input type="text" placeholder="Första namn" id="name" required>
-                    <input type="text" placeholder="Efternamn" id="lastname" required>
+                    <input type="text" placeholder="Första namn" id="name">
+                    <input type="text" placeholder="Efternamn" id="lastname">
                 </div>
 
                 <div class="inputBox">
-                    <input type="email" placeholder="email adress" id="email" required>
-                    <input type="tel" placeholder="telefonnummer" id="phone" required>
+                    <input type="email" placeholder="email adress" id="email">
+                    <input type="tel" placeholder="telefonnummer" id="phone">
                 </div>
 
-                <div class="inputBox">
-                    <input type="text" placeholder="Produktens namn" id="product" required>
-                    <input type="number" placeholder="hur många" id="number" required>
-                </div>
-
-                <textarea placeholder="Extra saker" name="" id="" cols="30" rows="10" id="message"></textarea>
+                <textarea placeholder="Meddelande" name="" cols="30" rows="10" id="message"></textarea>
                 <input type="submit" value="Beställ nu" class="btn" id="btn">
             </form>
 
@@ -355,14 +283,14 @@
                 <p>Klockaregatan 7</p>
                 <p>511 54 Kinna</p>
                 <div class="share">
-                    <a href="https://www.facebook.com/kinna.finbageri.1" class="fab fa-facebook-f"></a>
-                    <a href="https://www.instagram.com/kinnafinbageri/" class="fab fa-instagram"></a>
+                    <a href="https://www.facebook.com/kinna.finbageri.1" target="_blank" class="fab fa-facebook-f"></a>
+                    <a href="https://www.instagram.com/kinnafinbageri/" target="_blank" class="fab fa-instagram"></a>
                 </div>
             </div>
 
             <div class="box">
                 <h3>E-mail</h3>
-                <a href="#" class="link">butik@kinnafinbageri.se </a>
+                <a href="mailto: butik@kinnafinbageri.se" class="link">butik@kinnafinbageri.se </a>
             </div>
 
             <div class="box">
@@ -376,21 +304,25 @@
             </div>
         </div>
 
-        <div class="credit">gjord av <span><a href="">Netbase.se</a></span></a> </div>
+        <div class="credit">gjord av <span><a href="https://netbase.se/" target="_blank">Netbase.se</a></span></a> </div>
 
     </section>
 
-</body>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
 
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
-<script>
+    <script src="js/swiper.js"></script>
+
+    <script src="js/shop.js"></script>
+
+    <script>
     lightGallery(document.querySelector('.gallery .gallery-container'));
-</script>
+    </script>
+</body>
 
 
 

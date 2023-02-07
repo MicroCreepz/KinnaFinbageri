@@ -16,15 +16,21 @@ document.querySelector('#close-form').onclick = () =>{
     cart.classList.remove('active');
 }
 
-var swiper = new Swiper(".home-slider", {
-    loop:true,
-    cnteredSlides:true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-});
+function SendEmail(){
 
+    Email.send({
+        SecureToken :"8490db62-6b08-4b1d-a411-674d4584359c",
+        To : 'liamr.ryden@gmail.com',
+        From : 'liamr.ryden@gmail.com',
+        Subject : "En ny beställning",
+        Body : "And this is the body"
+    }).then(
+        
+      message => alert(message)
+    );
+}
+
+/*
 var btn = document.getElementById('btn');
 btn.addEventListener('click', function(e){
     e.preventDefault()
@@ -36,15 +42,4 @@ btn.addEventListener('click', function(e){
     var number = document.getElementById('number').value;
     var message = document.getElementById('message').value;
     var body = 'namn: ' +name + lastname + '<br/> email: ' +email + '<br/> telefonnummer: ' +phone + '<br/> Produkt de vill ha' +number +product + '<br/> extra saker ' +message
-
-    Email.send({
-        Host : "liam.ryden@elev.ga.lbs.se",
-        Username : "liamr.ryden@gmail.com",
-        Password : "pskwofhhysqyylhq",
-        To : 'liamr.ryden@gmail.com',
-        From : mail,
-        Body : body
-    }).then(
-      message => alert(message)
-    );
-})
+*/

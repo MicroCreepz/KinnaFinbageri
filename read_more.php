@@ -23,13 +23,11 @@
         <a href="#" class="logo"> <i class="fas fa-bread-slice"></i> bakery </a>
 
         <nav class="navbar">
-            <a href="index.html">hem</a>
-            <a href="products.html">produkter</a>
-            <a href="index.html">Om oss</a>
-            <a href="index.html">gallery</a>
-            <a href="index.html">Anställda</a>
-            <a href="index.html">recension</a>
-            <a href="index.html">Beställ</a>
+            <a href="index.php">hem</a>
+            <a href="products.php">produkter</a>
+            <a href="read_more.php">Om oss</a>
+            <a href="index.php">galleri</a>
+            <a href="index.php">Kontakta oss</a>
         </nav>
 
         <div class="icons">
@@ -39,45 +37,49 @@
 
     </header>
 
-    <!-- header end -->
-
-    <!-- shopping cart -->
-
     <div class="cart-items-container">
 
         <div id="close-form" class="fas fa-times"></div>
-        <h3 class="title">checkout</h3>
+        <h3 class="title">Min kundvagn</h3>
+        <div id="cartItem">Din kundvagn är tom</div>
 
-        <div class="cart-item">
-            <span class="fas fa-times"></span>
-            <img src="images/item.png" alt="">
-            <div class="content">
-                <h3>bakery item 1</h3>
-                <div class="price">$45.99/-</div>
-            </div>
+
+        <div class="cartfoot">
+            <h3>Totala</h3>
+            <h3 id="total">0.00kr</h3>
         </div>
 
-        <div class="cart-item">
-            <span class="fas fa-times"></span>
-            <img src="images/item.png" alt="">
-            <div class="content">
-                <h3>bakery item 2</h3>
-                <div class="price">$15.99/-</div>
-            </div>
-        </div>
-
-        <div class="cart-item">
-            <span class="fas fa-times"></span>
-            <img src="images/item.png" alt="">
-            <div class="content">
-                <h3>bakery item 3</h3>
-                <div class="price">$29.99/-</div>
-            </div>
-        </div>
-
-        <a href="#" class="btn"> checkout </a>
+        <a href="checkout.html" class="btn"> checkout </a>
 
     </div>
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>om</span> oss </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/about.png" alt="">
+            </div>
+                <div class="content">
+                    <h3>Info om huset <span>här </span>ska det stå</h3>
+                    <p>adgadhgadh adhadhad hadhadhadh adhadhad hadhadha adhaahdahad had had h</p>
+                    <p>adgadhgadh adhadhad hadhadhadh adhadhad hadhadha adhaahdahad had had h</p>
+                </div>
+        </div>
+        <div class="row">
+            <div class="content">
+                <h3>Info om huset <span>här </span>ska det stå</h3>
+                <p>adgadhgadh adhadhad hadhadhadh adhadhad hadhadha adhaahdahad had had h</p>
+                <p>adgadhgadh adhadhad hadhadhadh adhadhad hadhadha adhaahdahad had had h</p>
+            </div>
+
+            <div class="image">
+                <img src="images/about.png" alt="">
+            </div>
+        </div>
+
+    </section>
     
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
