@@ -16,6 +16,23 @@ document.querySelector('#close-form').onclick = () =>{
     cart.classList.remove('active');
 }
 
+const productcontainer = document.querySelectorAll('.box-container');
+const nxtBtn = document.querySelectorAll('.nxt-btn');
+const preBtn = document.querySelectorAll('.pre-btn');
+
+productcontainer.forEach((item, i) =>{
+    let containerdimension = item.getBoundingClientRect();
+    let containerWidth = containerdimension.width;
+
+    nxtBtn[i].addEventListener('click', () => {
+        item.scrollLeft += containerWidth;
+    })
+
+    preBtn[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidth;
+    })
+})
+
 function SendEmail(){
 
     Email.send({

@@ -60,14 +60,14 @@
                     <div class="content">
                         <img src="images/logo.png" alt="">
                         <h3>Vi bakar fram vad du vill ha</h3>
-                        <a href="products.html" class="btn"> börja handla </a>
+                        <a href="products.php" class="btn"> börja handla </a>
                     </div>
                 </div>
 
                 <div class="swiper-slide slide" style="background: url(images/slider2.jpg) no-repeat;">
                     <div class="content">
                         <h3>Vi bakar fram vad du vill ha</h3>
-                        <a href="products.html" class="btn"> börja handla </a>
+                        <a href="products.php" class="btn"> börja handla </a>
                     </div>
                 </div>
 
@@ -94,7 +94,7 @@
                 <p>adgadhgadh adhadhad hadhadhadh adhadhad hadhadha adhaahdahad had had h</p>
                 <p>adgadhgadh adhadhad hadhadhadh adhadhad hadhadha adhaahdahad had had h</p>
             </div>
-            <a href="read_more.html" class="btn">läs mer</a>
+            <a href="read_more.php" class="btn">läs mer</a>
         </div>
 
     </section>

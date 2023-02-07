@@ -14,9 +14,6 @@
 
 </head>
 <body>
-    
-
-
 
 <header class="header">
 
@@ -59,6 +56,117 @@
 
 <h1 style="margin-top: 5rem;"class="heading">våra <span> produkter</span></h1>
 <h1 class="side-head">Tårtor</h1>
+<hr style="height:50%;text-align:left;margin-left:0; color: black;"> 
+<div class="box-container">
+    <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+    <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Stor sak</h3>
+            <span class="price">279 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<section class="product" id="product">
+
+<h1 class="side-head">Kakor</h1>
 <hr style="height:50%;text-align:left;margin-left:0; color: black;"> 
 <div class="box-container">
 
@@ -164,6 +272,39 @@
 </div>
 
 </section>
+
+<section class="footer">
+
+<div class="box-container">
+
+    <div class="box">
+        <h3>adress</h3>
+        <p>Klockaregatan 7</p>
+        <p>511 54 Kinna</p>
+        <div class="share">
+            <a href="https://www.facebook.com/kinna.finbageri.1" target="_blank" class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/kinnafinbageri/" target="_blank" class="fab fa-instagram"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <h3>E-mail</h3>
+        <a href="mailto: butik@kinnafinbageri.se" class="link">butik@kinnafinbageri.se </a>
+    </div>
+
+    <div class="box">
+        <h3>Ring oss</h3>
+        <p>0320-101 68</p>
+    </div>
+
+    <div class="box">
+        <h3> öppettider </h3>
+        <p>Måndag - Fredag: 7:30 - 18:00 <br> Lördag: 9:00 - 13:00  <br> söndag: stängt</p>
+    </div>
+</div>
+
+<div class="credit">gjord av <span><a href="https://netbase.se/" target="_blank">Netbase.se</a></span></a> </div>
+
     <?php 
 
     ?>
