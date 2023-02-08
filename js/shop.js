@@ -89,6 +89,7 @@ function updatecarttotal(){
     document.getElementsByClassName('lenght-text')[0].innerText = CartItems.length
 }
 function stepper(btn){
+    const name = document.getElementsByClassName('item-title');
     const myInput = document.getElementById("my-input");
     var id = btn.getAttribute('id')
     var min = myInput.getAttribute('min')
@@ -100,7 +101,8 @@ function stepper(btn){
     
     if(newvalue >= min && newvalue <= max){
         myInput.setAttribute('value', newvalue);
-    } 
+    }
+    if (name )
 
     updatecarttotal()
 }
