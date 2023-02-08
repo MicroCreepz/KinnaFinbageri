@@ -57,13 +57,12 @@
 <h1 style="margin-top: 5rem;"class="heading">våra <span> produkter</span></h1>
 <h1 class="side-head">Tårtor</h1>
 <hr style="height:50%;text-align:left;margin-left:0; color: black;"> 
-<div class="box-container">
-    <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
-    <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+
+<div class="box-container" > 
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false"alt="">
         </div>
         <div class="content">
             <h3 class="item-title">äpple pie</h3>
@@ -74,7 +73,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png">
+            <img src="images/item.png" draggable="false">
         </div>
         <div class="content">
             <h3 class="item-title">Cake</h3>
@@ -85,7 +84,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">Potatis</h3>
@@ -96,7 +95,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">En sak</h3>
@@ -107,7 +106,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">Stor sak</h3>
@@ -118,7 +117,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">äpple pie</h3>
@@ -129,7 +128,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png">
+            <img src="images/item.png" draggable="false">
         </div>
         <div class="content">
             <h3 class="item-title">Cake</h3>
@@ -140,7 +139,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">Potatis</h3>
@@ -151,7 +150,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">En sak</h3>
@@ -172,7 +171,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">äpple pie</h3>
@@ -183,7 +182,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png">
+            <img src="images/item.png" draggable="false">
         </div>
         <div class="content">
             <h3 class="item-title">Cake</h3>
@@ -194,7 +193,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">Potatis</h3>
@@ -205,7 +204,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">En sak</h3>
@@ -216,7 +215,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">Stor sak</h3>
@@ -227,7 +226,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">äpple pie</h3>
@@ -238,7 +237,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png">
+            <img src="images/item.png" draggable="false">
         </div>
         <div class="content">
             <h3 class="item-title">Cake</h3>
@@ -249,7 +248,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">Potatis</h3>
@@ -260,7 +259,7 @@
 
     <div class="box">
         <div class="image">
-            <img src="images/item.png" alt="">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">En sak</h3>

@@ -16,23 +16,6 @@ document.querySelector('#close-form').onclick = () =>{
     cart.classList.remove('active');
 }
 
-const productcontainer = document.querySelectorAll('.box-container');
-const nxtBtn = document.querySelectorAll('.nxt-btn');
-const preBtn = document.querySelectorAll('.pre-btn');
-
-productcontainer.forEach((item, i) =>{
-    let containerdimension = item.getBoundingClientRect();
-    let containerWidth = containerdimension.width;
-
-    nxtBtn[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    })
-
-    preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    })
-})
-
 function SendEmail(){
 
     Email.send({
@@ -60,3 +43,28 @@ btn.addEventListener('click', function(e){
     var message = document.getElementById('message').value;
     var body = 'namn: ' +name + lastname + '<br/> email: ' +email + '<br/> telefonnummer: ' +phone + '<br/> Produkt de vill ha' +number +product + '<br/> extra saker ' +message
 */
+
+const box_con = document.querySelector('.box-container')
+
+let isdragstart = false, prevPageX, prevScrollLeft;
+
+const dragstart = (e) => {
+    isdragstart = true;
+    prevPageX = e.pageX;
+    prevScrollLeft = box_con.scrollLeft;
+}
+
+const dragging = (e) => {
+    if(!isdragstart) return
+    e.preventDefault();
+    let positionDiff = e.pageX - prevPageX;
+    box_con.scrollLeft = prevScrollLeft - positionDiff;
+}
+
+const dragStop = () => {
+    isdragstart = false;
+}
+
+box_con.addEventListener('mousedown', dragstart)
+box_con.addEventListener('mousemove', dragging)
+box_con.addEventListener('mouseup', dragStop)
