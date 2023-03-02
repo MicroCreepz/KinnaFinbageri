@@ -84,9 +84,10 @@ function updatecarttotal(){
         var quantity = CartItems[i].getElementsByClassName('cart-quantity')[0].value
         var price = parseFloat(cartprice.innerText.replace('kr', ''))
         total = total + (price * quantity)
+        console.log(quantity)
     }
-    document.getElementsByClassName('total')[0].innerText = total + 'kr'
     document.getElementsByClassName('lenght-text')[0].innerText = CartItems.length
+    document.getElementsByClassName('total')[0].innerText = total + 'kr'
 }
 function stepper(btn, title){
     const myInput = document.getElementById(title);
@@ -104,4 +105,5 @@ function stepper(btn, title){
 
     updatecarttotal()
 }
+
 

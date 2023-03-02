@@ -59,7 +59,7 @@ section{
   font-size: 4rem;
 }
 
-.heading span{
+span{
   color: var(--secondary);
   text-transform: uppercase;
 }
