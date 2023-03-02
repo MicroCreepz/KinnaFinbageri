@@ -65,6 +65,12 @@ const dragStop = () => {
     isdragstart = false;
 }
 
+const dragleave = () => {
+    isdragstart = false
+}
+
+
 box_con.addEventListener('mousedown', dragstart)
 box_con.addEventListener('mousemove', dragging)
 box_con.addEventListener('mouseup', dragStop)
+box_con.addEventListener('mouseleave', dragleave)

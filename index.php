@@ -14,40 +14,42 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
 
-        <a href="#" class="logo"> <i class="fas fa-bread-slice"></i> bakery </a>
+<header class="header">
 
-        <nav class="navbar">
-            <a href="#home">hem</a>
-            <a href="products.php">produkter</a>
-            <a href="#about">Om oss</a>
-            <a href="#gallery">galleri</a>
-            <a href="#order">Kontakta oss</a>
-        </nav>
+<a href="index.html" class="logo"> <i class="fas fa-bread-slice"></i> bakery </a>
 
-        <div class="icons">
-            <div id="cart-btn" class="fas fa-shopping-cart"></div>
-            <div id="menu-btn" class="fas fa-bars"></div>
-        </div>
+<nav class="navbar">
+    <a href="index.php">hem</a>
+    <a href="products.php">produkter</a>
+    <a href="read_more.php">Om oss</a>
+    <a href="index.php">galleri</a>
+    <a href="#order">Kontakta oss</a>
+</nav>
 
-    </header>
-
-
-    <div class="cart-items-container">
-
-        <div id="close-form" class="fas fa-times"></div>
-        <h3 class="title">beställning</h3>
-
-        <div class="cart-items">
-        </div>
-
-        <div class="cartfoot">
-            <h3>Totala</h3>
-            <h3 class="total">0kr</h3>
-        </div>
-        <a href="#" class="btn"> Beställ </a>
+<div class="icons">
+    <div id="cart-btn" class="fas fa-shopping-cart">
+        <p class="lenght-text">0</p>
     </div>
+    <div id="menu-btn" class="fas fa-bars"></div>
+</div>
+
+</header>
+
+<div class="cart-items-container">
+
+<div id="close-form" class="fas fa-times"></div>
+<h3 class="title">Varukorg</h3>
+
+<div class="cart-items">
+</div>
+
+<div class="cartfoot">
+    <h3>Totala</h3>
+    <h3 class="total">0kr</h3>
+</div>
+<a href="checkout.html" id="purchase"class="btn"> Beställ </a>
+</div>
 
 
     <section class="home" id="home">

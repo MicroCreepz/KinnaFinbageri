@@ -62,10 +62,10 @@ function addItemToCart(title, price, imageSrc){
             <h3 class="cart-item-title">${title}</h3>
             <div class="price">${price}</div>
             <div class="quantity-container">
-                <button id="btn_minus" onclick="stepper(this)"> - </button>
-                <input id="my-input" class="cart-quantity" 
+                <button id="btn_minus" onclick="stepper(this,'${title}')"> - </button>
+                <input id="${title}" class="cart-quantity" 
                 type="number" value="1" min="1" max="50" step="1" readonly>
-                <button id="btn_plus" onclick="stepper(this)"> + </button>
+                <button id="btn_plus" onclick="stepper(this,'${title}')"> + </button>
             </div>
         </div>
     </div>`
@@ -88,9 +88,8 @@ function updatecarttotal(){
     document.getElementsByClassName('total')[0].innerText = total + 'kr'
     document.getElementsByClassName('lenght-text')[0].innerText = CartItems.length
 }
-function stepper(btn){
-    const name = document.getElementsByClassName('item-title');
-    const myInput = document.getElementById("my-input");
+function stepper(btn, title){
+    const myInput = document.getElementById(title);
     var id = btn.getAttribute('id')
     var min = myInput.getAttribute('min')
     var max = myInput.getAttribute('max')
@@ -102,7 +101,6 @@ function stepper(btn){
     if(newvalue >= min && newvalue <= max){
         myInput.setAttribute('value', newvalue);
     }
-    if (name )
 
     updatecarttotal()
 }

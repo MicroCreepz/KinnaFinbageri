@@ -371,9 +371,10 @@ section{
   overflow-x: auto;
   overflow-x: hidden;
   overscroll-behavior-inline: contain;
+  box-shadow: var(--box-shadow);
 }
 
-.box-container:hover{
+.product .box-container:hover{
   cursor: pointer;
 }
 
@@ -387,6 +388,7 @@ section{
   text-align: center;
   height: 350px;
   width: 225px;
+
 }
 
 .product .box-container .box .image{

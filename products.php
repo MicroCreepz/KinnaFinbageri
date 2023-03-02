@@ -48,7 +48,7 @@
     <h3>Totala</h3>
     <h3 class="total">0kr</h3>
 </div>
-<a href="checkout.html" id="purchase"class="btn"> Beställ </a>
+<a href="#" draggable="false" id="purchase"class="btn"> Beställ </a>
 </div>
 
 
@@ -56,13 +56,444 @@
 
 <h1 style="margin-top: 5rem;"class="heading">våra <span> produkter</span></h1>
 <h1 class="side-head">Tårtor</h1>
-<hr style="height:50%;text-align:left;margin-left:0; color: black;"> 
 
 <div class="box-container" > 
 
     <div class="box">
         <div class="image">
             <img src="images/item.png" draggable="false"alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">rabarber tårta</h3>
+            <span class="price">350 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Tårta</h3>
+            <span class="price">450 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis tårta</h3>
+            <span class="price">240 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En Tårta</h3>
+            <span class="price">300 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Den Tårtan</h3>
+            <span class="price">280 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Blåbärs Tårta</h3>
+            <span class="price">310 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">stor Tårta</h3>
+            <span class="price">600 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Liten Tårta</h3>
+            <span class="price">160 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">medel Tårta</h3>
+            <span class="price">230 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<section class="product" id="product">
+
+<h1 class="side-head">Kakor</h1>
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Stor sak</h3>
+            <span class="price">279 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<section class="product" id="product">
+
+<h1 class="side-head">pajer</h1>
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Stor sak</h3>
+            <span class="price">279 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<section class="product" id="product">
+
+<h1 class="side-head">vetebröd</h1>
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Stor sak</h3>
+            <span class="price">279 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<section class="product" id="product">
+
+<h1 class="side-head">Små fika</h1>
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
         </div>
         <div class="content">
             <h3 class="item-title">äpple pie</h3>
@@ -166,7 +597,330 @@
 <section class="product" id="product">
 
 <h1 class="side-head">Kakor</h1>
-<hr style="height:50%;text-align:left;margin-left:0; color: black;"> 
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Stor sak</h3>
+            <span class="price">279 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<section class="product" id="product">
+
+<h1 class="side-head">Kakor</h1>
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Stor sak</h3>
+            <span class="price">279 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<section class="product" id="product">
+
+<h1 class="side-head">Kakor</h1>
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Stor sak</h3>
+            <span class="price">279 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">äpple pie</h3>
+            <span class="price">159 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Cake</h3>
+            <span class="price">199 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">Potatis</h3>
+            <span class="price">119 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="images/item.png" draggable="false" alt="">
+        </div>
+        <div class="content">
+            <h3 class="item-title">En sak</h3>
+            <span class="price">189 kr</span>
+            <a class="btn btn_shop">lägg till i kundvagn</a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<section class="product" id="product">
+
+<h1 class="side-head">Kakor</h1>
 <div class="box-container">
 
     <div class="box">
@@ -305,7 +1059,7 @@
 <div class="credit">gjord av <span><a href="https://netbase.se/" target="_blank">Netbase.se</a></span></a> </div>
 
     <?php 
-
+    
     ?>
 
 </body>
